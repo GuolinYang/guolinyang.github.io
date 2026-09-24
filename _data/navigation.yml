@@ -1,14 +1,10 @@
-# main links links
+# Main navigation
 main:
+  - title: "Research"
+    url: /research/
 
   - title: "Publications"
-    url: /publications/     
-    
-  - title: "Project"
-    url: /project/
-    
+    url: /publications/
+
   - title: "CV"
     url: /cv/
-    
-  - title: "Slides"
-    url: /slides/
