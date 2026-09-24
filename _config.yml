@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Guolin Yang"
 title_separator          : "-"
 name                     : &name "Guolin Yang"
-description              : &description "personal description"
+description              : &description "Guolin Yang - Robotics, World Models, Model-Based Reinforcement Learning, Planning and Safe Control"
 url                      : https://guolinyang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "guolinyang.github.io"
@@ -73,21 +73,21 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Guolin"
+  name             : "Guolin Yang"
   avatar           : "MECD1.jpg"
-  bio              : "PhD student in AI + Robotics"
-  location         : "Manchester, UK"
+  bio              : "PhD Researcher | World Models, MBRL, Planning & Safe Control"
+  location         : "Zwickau, Germany"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "guolin.yang@postgrad.manchester.ac.uk"
+  email            : "guolin.yang@manchester.ac.uk"
   researchgate     : "https://www.researchgate.net/profile/Guolin-Yang-2"
   uri              :
   bitbucket        :
@@ -252,7 +252,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
