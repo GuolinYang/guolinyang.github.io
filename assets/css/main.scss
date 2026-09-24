@@ -29,17 +29,17 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* al-folio-inspired layout */
+/* al-folio-inspired dark layout */
 body {
   font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: #212529;
-  background: #fff;
+  color: #e8edf2;
+  background: #0b0f14;
 }
 
 .masthead {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #222a33;
   box-shadow: none;
-  background: rgba(255,255,255,.97);
+  background: rgba(11,15,20,.97);
 }
 
 .masthead__inner-wrap {
@@ -53,12 +53,16 @@ body {
 }
 
 .greedy-nav a {
-  color: #212529;
+  color: #e8edf2;
   font-weight: 400;
 }
 
 .greedy-nav a:hover {
-  color: #0076df;
+  color: #4da3ff;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #4da3ff;
 }
 
 .masthead__menu-item--lg a {
@@ -82,6 +86,27 @@ body {
 .page__inner-wrap,
 .archive {
   max-width: 100%;
+}
+
+.page__title,
+.archive__subtitle,
+.page__content,
+.archive,
+.page__content p,
+.archive p,
+.page__content li,
+.archive li,
+.page__content strong,
+.archive strong,
+.page__content em,
+.archive em,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.archive h1,
+.archive h2,
+.archive h3 {
+  color: #e8edf2;
 }
 
 .page__title,
@@ -112,7 +137,7 @@ body {
 
 .page__content a,
 .archive a {
-  color: #0076df;
+  color: #4da3ff;
 }
 
 .sidebar {
@@ -135,7 +160,7 @@ body {
   display: block;
   width: 100%;
   border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  box-shadow: 0 4px 16px rgba(0,0,0,.45);
 }
 
 .alfolio-profile-main {
@@ -147,11 +172,12 @@ body {
   font-size: 2.45rem;
   font-weight: 400;
   line-height: 1.2;
+  color: #f7f9fb;
 }
 
 .alfolio-subtitle {
   margin: 0 0 .9rem;
-  color: #6c757d;
+  color: #9ba7b4;
   font-size: 1rem;
 }
 
@@ -163,12 +189,12 @@ body {
 }
 
 .alfolio-social a {
-  color: #212529;
+  color: #dbe3ea;
   text-decoration: none;
 }
 
 .alfolio-social a:hover {
-  color: #0076df;
+  color: #4da3ff;
 }
 
 .alfolio-intro p {
@@ -179,7 +205,7 @@ body {
 .alfolio-publications-page hr {
   margin: 1.6rem 0;
   border: 0;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #222a33;
 }
 
 .section-heading-link {
@@ -197,6 +223,8 @@ body {
   width: 100%;
   border-collapse: collapse;
   margin: 0;
+  background: transparent;
+  color: #e8edf2;
 }
 
 .alfolio-news th,
@@ -205,12 +233,15 @@ body {
   padding: .34rem .35rem .34rem 0;
   vertical-align: top;
   font-size: .95rem;
+  background: transparent;
+  color: #e8edf2;
 }
 
 .alfolio-news th {
   width: 20%;
   white-space: nowrap;
   font-weight: 500;
+  color: #c8d1da;
 }
 
 .alfolio-publications,
@@ -234,7 +265,7 @@ body {
   width: 100%;
   padding: .28rem .55rem;
   border-radius: 4px;
-  background: #0076df;
+  background: #1f6feb;
   color: #fff;
   text-align: center;
   font-size: .78rem;
@@ -247,7 +278,7 @@ body {
   height: 120px;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,.22);
+  box-shadow: 2px 2px 8px rgba(0,0,0,.5);
 }
 
 .pub-teaser img {
@@ -260,15 +291,17 @@ body {
   font-weight: 700;
   line-height: 1.35;
   margin-bottom: .2rem;
+  color: #f3f6f9;
 }
 
 .pub-authors,
 .pub-venue {
   line-height: 1.45;
+  color: #c8d1da;
 }
 
 .self-author {
-  border-bottom: 1px solid #212529;
+  border-bottom: 1px solid #c8d1da;
 }
 
 .pub-links {
@@ -279,16 +312,16 @@ body {
   display: inline-block;
   margin-right: .35rem;
   padding: .16rem .72rem;
-  border: 1px solid #212529;
+  border: 1px solid #65717e;
   border-radius: 3px;
-  color: #212529 !important;
+  color: #dce5ed !important;
   font-size: .78rem;
   text-decoration: none;
 }
 
 .pub-links a:hover {
-  color: #0076df !important;
-  border-color: #0076df;
+  color: #4da3ff !important;
+  border-color: #4da3ff;
 }
 
 .alfolio-publications-page h1 {
@@ -301,20 +334,51 @@ body {
   margin-top: 2rem;
   margin-bottom: 1rem;
   padding-top: .65rem;
-  border-top: 1px solid #ddd;
-  color: #aaa;
+  border-top: 1px solid #2b343e;
+  color: #7f8a96;
   text-align: right;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
 .alfolio-footnote {
-  color: #6c757d;
+  color: #9ba7b4;
   font-size: .88rem;
 }
 
 .page-cta .btn {
   margin-right: .35rem;
+}
+
+.btn,
+.btn--primary {
+  background: #111821 !important;
+  border: 1px solid #38424d !important;
+  color: #e8edf2 !important;
+}
+
+.btn:hover,
+.btn--primary:hover {
+  color: #4da3ff !important;
+  border-color: #4da3ff !important;
+}
+
+footer,
+.page__footer,
+.page__footer footer {
+  background: #0b0f14 !important;
+  color: #9ba7b4 !important;
+  border-top-color: #222a33 !important;
+}
+
+.page__footer a {
+  color: #9ba7b4 !important;
+}
+
+code,
+pre {
+  background: #111821;
+  color: #e8edf2;
 }
 
 @media (max-width: 700px) {
