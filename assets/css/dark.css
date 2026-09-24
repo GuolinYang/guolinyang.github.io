@@ -1,0 +1,247 @@
+/* Hard dark-theme override loaded after the Minimal Mistakes stylesheet. */
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #000 !important;
+  color: #f5f5f5 !important;
+}
+
+body,
+.initial-content,
+#main,
+.page,
+.page__inner-wrap,
+.page__content,
+.archive,
+.archive__item,
+.alfolio-home,
+.alfolio-publications,
+.alfolio-publications-page {
+  background-color: #000 !important;
+}
+
+body,
+p,
+li,
+dt,
+dd,
+th,
+td,
+.page__content,
+.archive,
+.page__meta,
+.page__date,
+.alfolio-intro,
+.alfolio-news,
+.alfolio-pub-main {
+  color: #f1f1f1 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title,
+.archive__subtitle,
+.pub-title,
+.alfolio-profile-main h1,
+strong {
+  color: #fff !important;
+}
+
+.alfolio-subtitle,
+.pub-authors,
+.pub-venue,
+.alfolio-footnote,
+.page__meta,
+.page__date {
+  color: #b3bac3 !important;
+}
+
+/* Header / navigation */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav ul,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links li,
+.greedy-nav button {
+  background: #000 !important;
+}
+
+.masthead {
+  border-bottom: 1px solid #262626 !important;
+  box-shadow: none !important;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  color: #f5f5f5 !important;
+}
+
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: #58a6ff !important;
+}
+
+.greedy-nav .visible-links a::before {
+  background: #58a6ff !important;
+}
+
+.navicon,
+.navicon::before,
+.navicon::after {
+  background: #f5f5f5 !important;
+}
+
+/* Links */
+a,
+.page__content a,
+.archive a,
+.alfolio-home a {
+  color: #58a6ff !important;
+}
+
+a:hover,
+.page__content a:hover,
+.archive a:hover,
+.alfolio-home a:hover {
+  color: #79b8ff !important;
+}
+
+.section-heading-link {
+  color: #fff !important;
+}
+
+/* Social icons */
+.alfolio-social a,
+.alfolio-social a i {
+  color: #f5f5f5 !important;
+}
+
+.alfolio-social a:hover,
+.alfolio-social a:hover i {
+  color: #58a6ff !important;
+}
+
+/* Tables / news */
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+.alfolio-news table,
+.alfolio-news th,
+.alfolio-news td {
+  background: #000 !important;
+  color: #f1f1f1 !important;
+  border-color: #2b2b2b !important;
+}
+
+.alfolio-news th {
+  color: #c8cdd3 !important;
+}
+
+/* Publication list */
+.venue-badge {
+  background: #1769d2 !important;
+  color: #fff !important;
+}
+
+.self-author {
+  border-bottom-color: #f1f1f1 !important;
+}
+
+.pub-links a,
+.btn,
+.btn--primary {
+  background: #000 !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #666 !important;
+  box-shadow: none !important;
+}
+
+.pub-links a:hover,
+.btn:hover,
+.btn--primary:hover {
+  color: #58a6ff !important;
+  border-color: #58a6ff !important;
+  background: #0a0a0a !important;
+}
+
+/* Dividers and cards */
+hr,
+.alfolio-home hr,
+.alfolio-publications-page hr,
+.alfolio-publications-page h2.bibliography {
+  border-color: #2b2b2b !important;
+}
+
+.alfolio-publications-page h2.bibliography {
+  color: #8b949e !important;
+}
+
+.card,
+.notice,
+.toc,
+.author__urls,
+.pagination,
+.pagination--pager {
+  background: #000 !important;
+  color: #f1f1f1 !important;
+  border-color: #2b2b2b !important;
+}
+
+/* Footer */
+.page__footer,
+.page__footer footer,
+footer,
+.site-footer {
+  background: #000 !important;
+  color: #aab1b8 !important;
+  border-top-color: #2b2b2b !important;
+}
+
+.page__footer a,
+footer a {
+  color: #aab1b8 !important;
+}
+
+.page__footer a:hover,
+footer a:hover {
+  color: #58a6ff !important;
+}
+
+/* Code */
+pre,
+code,
+.highlight,
+.highlighter-rouge {
+  background: #0d1117 !important;
+  color: #f1f1f1 !important;
+  border-color: #30363d !important;
+}
+
+/* Inputs, if any */
+input,
+textarea,
+select {
+  background: #0d1117 !important;
+  color: #f5f5f5 !important;
+  border-color: #3a3a3a !important;
+}
+
+::selection {
+  background: #174ea6;
+  color: #fff;
+}
