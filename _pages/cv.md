@@ -15,7 +15,7 @@ redirect_from:
 
 ## Profile
 
-PhD researcher in Robotics and AI / Control Systems and Robotics at the University of Manchester, specialising in **world models, model-based reinforcement learning, predictive planning, and safe control for autonomous systems**. My work focuses on compact representations of dynamic, interactive environments and action-conditioned learned dynamics for multi-step prediction and online planning through MPPI and related sampling-based control methods.
+PhD researcher in Robotics and AI / Control Systems and Robotics at the University of Manchester, specialising in **world models, model-based reinforcement learning, predictive planning, and safe control for autonomous systems**. My work focuses on compact representations of dynamic, interactive environments and action-conditioned learned dynamics for multi-step prediction and online planning through MPPI and related sampling-based control methods. **Expected PhD completion: December 2026.**
 
 I work primarily with **Python, C++, PyTorch, CARLA, MATLAB/Simulink and closed-loop simulation**, with additional automotive engineering experience at Lotus Technology and NIO.
 
@@ -68,8 +68,8 @@ Supported teaching and assessment in Robotic Systems, Applied Mechanics & Indust
 
 ## Education
 
-**PhD in Electrical Engineering — University of Manchester, UK**  
-2023–2026. Research focus: world models, model-based reinforcement learning, autonomous driving, predictive planning and safety-critical control. Supervisors: Prof. Guido Herrmann and Prof. Alessandra Parisio.
+**PhD Candidate in Electrical Engineering — University of Manchester, UK**  
+2023–Present; **expected completion December 2026**. Research focus: world models, model-based reinforcement learning, autonomous driving, predictive planning and safety-critical control. Supervisors: Prof. Guido Herrmann and Prof. Alessandra Parisio.
 
 **MSc in Advanced Control and Systems Engineering — University of Manchester, UK**  
 2020–2022. Thesis: *A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicles*. Research Excellence Award and Top Student Award, 2022.

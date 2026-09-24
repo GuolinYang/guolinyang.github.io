@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Guolin Yang"
 title_separator          : "-"
 name                     : &name "Guolin Yang"
-description              : &description "Guolin Yang - Robotics, World Models, Model-Based Reinforcement Learning, Planning and Safe Control"
+description              : &description "Guolin Yang - Robotics & Autonomous Systems, World Models, Planning and Safe Control"
 url                      : https://guolinyang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "guolinyang.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Guolin Yang"
   avatar           : "MECD1.jpg"
-  bio              : "PhD Researcher | World Models, MBRL, Planning & Safe Control"
+  bio              : "Robotics & Autonomous Systems | World Models · Planning · Safe Control"
   location         : "Zwickau, Germany"
   employer         :
   pubmed           : 
