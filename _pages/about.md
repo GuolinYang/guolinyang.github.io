@@ -1,32 +1,67 @@
 ---
 permalink: /
 title: "Guolin Yang (杨国林)"
-excerpt: "Robotics, world models, model-based reinforcement learning, planning and safe control"
+excerpt: "Robotics & Autonomous Systems, World Models, Planning and Safe Control"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="profile-lead">
-  <p class="profile-kicker">ROBOTICS · WORLD MODELS · PLANNING · SAFE CONTROL</p>
-  <p class="profile-intro">
-    I am a PhD researcher in the Control Systems & Robotics / Robotics and AI community at the
-    <a href="https://www.manchester.ac.uk/">University of Manchester</a>. My work focuses on
-    <strong>world models, model-based reinforcement learning, predictive planning, and safety-aware control</strong>
-    for autonomous systems operating in dynamic, interactive environments.
+<div class="profile-hero">
+  <p class="profile-kicker">ROBOTICS & AUTONOMOUS SYSTEMS</p>
+  <p class="profile-tagline">World Models · Model-Based RL · MPPI · Safe Control</p>
+  <p class="profile-intro">I build predictive planning and safe-control systems for autonomous robots and vehicles operating in dynamic, interactive environments.</p>
+  <p class="profile-affiliation">PhD Researcher, University of Manchester · Expected PhD completion: Dec 2026</p>
+  <p class="hero-actions">
+    <a class="btn btn--primary" href="/research/">Research</a>
+    <a class="btn" href="/files/Guolin_Yang_CV_2026.pdf">Download CV</a>
+    <a class="btn" href="https://www.linkedin.com/in/guolin-yang-hnu">LinkedIn</a>
   </p>
 </div>
-
-My research asks a practical question: **how can an autonomous system learn what may happen next, reason about how its own actions change that future, and use those predictions to plan safely in real time?** I work on action-conditioned learned dynamics, latent world models, MPPI/MPC, Control Barrier Functions (CBFs), and risk-aware planning under uncertain pedestrian motion.
-
-Before my PhD, I worked on ADAS software at **Lotus Technology** and battery-management-system software and validation at **NIO**. My earlier vehicle-engineering work included four-wheel vehicle dynamics, Pacejka tyre modelling, MPC-based trajectory control, IPG CarMaker, and Formula Student EV high-voltage systems.
 
 <div class="metric-grid">
   <div class="metric-card"><span class="metric-value">+4.8 pp</span><span class="metric-label">OOD success improvement in interaction-aware planning experiments</span></div>
   <div class="metric-card"><span class="metric-value">99.9%</span><span class="metric-label">success in the reported benchmark for the best evaluated configuration</span></div>
   <div class="metric-card"><span class="metric-value">7.8% → 3.8%</span><span class="metric-label">collision-rate reduction with a multi-obstacle discrete-time CBF filter</span></div>
   <div class="metric-card"><span class="metric-value">9.30 ms</span><span class="metric-label">reported safety-filter runtime in the 500-scenario evaluation</span></div>
+</div>
+
+## Selected research
+
+<div class="project-grid">
+  <article class="project-card">
+    <img src="/images/project-pipcn.svg" alt="PIP-CN interaction-aware world model and MPPI planning architecture">
+    <div class="project-card__body">
+      <p class="project-card__eyebrow">World Models · MBRL · MPPI</p>
+      <h3>Interaction-Aware World Models</h3>
+      <p>Action-conditioned latent dynamics for multi-step predictive planning in vehicle–pedestrian interaction.</p>
+      <p><strong>+4.8 pp OOD success · 99.9% benchmark success</strong></p>
+      <a href="/research/#pip-cn">Project details →</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <img src="/images/project-safe-mppi.svg" alt="Safety-aware MPPI architecture with CVaR and control barrier functions">
+    <div class="project-card__body">
+      <p class="project-card__eyebrow">MPPI · CBF · CVaR</p>
+      <h3>Safe MPPI under Prediction Uncertainty</h3>
+      <p>Long-horizon risk-aware trajectory shaping combined with execution-level safe filtering for uncertain pedestrian motion.</p>
+      <p><strong>Up to 65.7% fewer collisions vs. nominal controller</strong></p>
+      <a href="/research/#safe-mppi">Project details →</a>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <img src="/images/project-cbf-filter.svg" alt="Real-time multi-obstacle CBF safety filter">
+    <div class="project-card__body">
+      <p class="project-card__eyebrow">Real-Time Control · CBF · QP</p>
+      <h3>Multi-Obstacle Safety Filtering</h3>
+      <p>A compact discrete-time CBF correction layer designed to keep online computation small as nearby obstacle count grows.</p>
+      <p><strong>7.8% → 3.8% collision rate · 9.30 ms runtime</strong></p>
+      <a href="/research/#cbf-filter">Project details →</a>
+    </div>
+  </article>
 </div>
 
 ## Research focus
@@ -50,23 +85,6 @@ Before my PhD, I worked on ADAS software at **Lotus Technology** and battery-man
   </div>
 </div>
 
-## Technical stack
-
-<div class="skill-tags">
-  <span>Python</span><span>C++</span><span>PyTorch</span><span>MATLAB / Simulink</span>
-  <span>MPPI</span><span>MPC</span><span>Model-Based RL</span><span>World Models</span>
-  <span>CBF</span><span>CVaR</span><span>CARLA</span><span>IPG CarMaker</span>
-  <span>Vector CANoe</span><span>CAN / DBC</span><span>Git</span><span>Docker</span>
-</div>
-
-## Selected work
-
-**Prediction-Integrated Planning for Crowd Navigation (PIP-CN).** I developed an interaction-aware, recurrent latent world model in which planned ego actions influence future state predictions. The model combines pedestrian-interaction modelling, collision-risk prediction, reward/value estimation, and sampling-based planning. [Research details →](/research/#pip-cn)
-
-**Safety-aware MPPI under uncertain pedestrian prediction.** I developed execution-level safety mechanisms for sampling-based control using discrete-time CBFs, robust safety constraints, and CVaR-based tail-risk reasoning. [Research details →](/research/#safe-mppi)
-
-**Pedestrian behaviour prediction and simulation.** My earlier work developed a hierarchical forecasting pedestrian model for autonomous-vehicle simulation, combining dynamics, path planning and decision layers. [Publication →](https://doi.org/10.1109/ACCESS.2024.3352499)
-
 ## Experience at a glance
 
 | Period | Role | Focus |
@@ -77,22 +95,39 @@ Before my PhD, I worked on ADAS software at **Lotus Technology** and battery-man
 | 2021 | BMS Software Intern, NIO | Simulink, CAN/DBC, insulation detection, chamber/bench/vehicle validation |
 | 2017–2019 | High-Voltage Lead, Formula Student EV | EV HV architecture, modelling, safety and lightweight battery design |
 
-## Education
+<p class="status-note"><strong>PhD status:</strong> PhD Researcher / Candidate, 2023–Present. Expected completion: <strong>December 2026</strong>.</p>
 
-- **PhD in Electrical Engineering**, University of Manchester, 2023–2026. Research in world models, model-based reinforcement learning, predictive planning and safety-critical control. Supervisors: Prof. Guido Herrmann and Prof. Alessandra Parisio.
-- **MSc in Advanced Control and Systems Engineering**, University of Manchester, 2020–2022. Research Excellence Award and Top Student Award (2022).
-- **BEng in Vehicle Engineering**, Hunan University, 2016–2020. Thesis on motion planning and dynamics control of an autonomous racing car.
+## Technical stack
 
-## Recent highlights
+<div class="tech-groups">
+  <div class="tech-group">
+    <h3>AI & Learning</h3>
+    <div class="skill-tags"><span>PyTorch</span><span>Model-Based RL</span><span>World Models</span><span>Learned Dynamics</span><span>Representation Learning</span></div>
+  </div>
+  <div class="tech-group">
+    <h3>Planning & Control</h3>
+    <div class="skill-tags"><span>MPPI</span><span>MPC</span><span>Motion Planning</span><span>CBF</span><span>CVaR</span><span>Risk-Aware Control</span></div>
+  </div>
+  <div class="tech-group">
+    <h3>Programming</h3>
+    <div class="skill-tags"><span>Python</span><span>C++</span><span>MATLAB / Simulink</span><span>SciPy</span><span>Git</span><span>Docker</span></div>
+  </div>
+  <div class="tech-group">
+    <h3>Simulation & Automotive</h3>
+    <div class="skill-tags"><span>CARLA</span><span>IPG CarMaker</span><span>Vector CANoe</span><span>CAN / DBC</span><span>DFMEA</span></div>
+  </div>
+</div>
 
-- **2026:** Paper accepted to the IEEE Conference on Decision and Control (CDC): *A Safety Framework for Uncertainty-Aware Model Predictive Path Integral Control in Shared-Space Navigation*.
-- **2026:** *PIP-CN: Prediction-Integrated Planning for Crowd Navigation* accepted to IEEE/RSJ IROS 2026.
-- **2026:** *Risk-Bounded Predictive Control for Automated Vehicles in Shared-Space Areas* presented at AVEC 2026.
+## Selected publications & highlights
+
+- **2026:** *A Safety Framework for Uncertainty-Aware Model Predictive Path Integral Control in Shared-Space Navigation* — IEEE CDC 2026, accepted.
+- **2026:** *PIP-CN: Prediction-Integrated Planning for Crowd Navigation* — IEEE/RSJ IROS 2026, accepted.
+- **2026:** *Risk-Bounded Predictive Control for Automated Vehicles in Shared-Space Areas* — presented at AVEC 2026.
 - **2025:** Co-authored work published in *Applied Energy* on intelligent PV-panel cleaning recommendation.
-- **2024:** Published *A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicle* in *IEEE Access*.
+- **2024:** *A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicle* — *IEEE Access*.
 
 <p class="page-cta">
-  <a class="btn btn--primary" href="/research/">Research</a>
-  <a class="btn btn--primary" href="/publications/">Publications</a>
-  <a class="btn btn--primary" href="/cv/">CV</a>
+  <a class="btn btn--primary" href="/research/">Explore research</a>
+  <a class="btn" href="/publications/">Publications</a>
+  <a class="btn" href="/cv/">CV</a>
 </p>
