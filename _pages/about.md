@@ -1,133 +1,119 @@
 ---
 permalink: /
-title: "Guolin Yang (杨国林)"
-excerpt: "Robotics & Autonomous Systems, World Models, Planning and Safe Control"
-author_profile: true
+title: ""
+excerpt: "Guolin Yang — Robotics, World Models, Model-Based Reinforcement Learning, Planning and Safe Control"
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="profile-hero">
-  <p class="profile-kicker">ROBOTICS & AUTONOMOUS SYSTEMS</p>
-  <p class="profile-tagline">World Models · Model-Based RL · MPPI · Safe Control</p>
-  <p class="profile-intro">I build predictive planning and safe-control systems for autonomous robots and vehicles operating in dynamic, interactive environments.</p>
-  <p class="profile-affiliation">PhD Researcher, University of Manchester · Expected PhD completion: Dec 2026</p>
-  <p class="hero-actions">
-    <a class="btn btn--primary" href="/research/">Research</a>
-    <a class="btn" href="/files/Guolin_Yang_CV_2026.pdf">Download CV</a>
-    <a class="btn" href="https://www.linkedin.com/in/guolin-yang-hnu">LinkedIn</a>
-  </p>
-</div>
-
-<div class="metric-grid">
-  <div class="metric-card"><span class="metric-value">+4.8 pp</span><span class="metric-label">OOD success improvement in interaction-aware planning experiments</span></div>
-  <div class="metric-card"><span class="metric-value">99.9%</span><span class="metric-label">success in the reported benchmark for the best evaluated configuration</span></div>
-  <div class="metric-card"><span class="metric-value">7.8% → 3.8%</span><span class="metric-label">collision-rate reduction with a multi-obstacle discrete-time CBF filter</span></div>
-  <div class="metric-card"><span class="metric-value">9.30 ms</span><span class="metric-label">reported safety-filter runtime in the 500-scenario evaluation</span></div>
-</div>
-
-## Selected research
-
-<div class="project-grid">
-  <article class="project-card">
-    <img src="/images/project-pipcn.svg" alt="PIP-CN interaction-aware world model and MPPI planning architecture">
-    <div class="project-card__body">
-      <p class="project-card__eyebrow">World Models · MBRL · MPPI</p>
-      <h3>Interaction-Aware World Models</h3>
-      <p>Action-conditioned latent dynamics for multi-step predictive planning in vehicle–pedestrian interaction.</p>
-      <p><strong>+4.8 pp OOD success · 99.9% benchmark success</strong></p>
-      <a href="/research/#pip-cn">Project details →</a>
+<div class="alfolio-home">
+  <header class="alfolio-profile-row">
+    <div class="alfolio-profile-photo">
+      <img src="/images/MECD1.jpg" alt="Guolin Yang">
     </div>
-  </article>
-
-  <article class="project-card">
-    <img src="/images/project-safe-mppi.svg" alt="Safety-aware MPPI architecture with CVaR and control barrier functions">
-    <div class="project-card__body">
-      <p class="project-card__eyebrow">MPPI · CBF · CVaR</p>
-      <h3>Safe MPPI under Prediction Uncertainty</h3>
-      <p>Long-horizon risk-aware trajectory shaping combined with execution-level safe filtering for uncertain pedestrian motion.</p>
-      <p><strong>Up to 65.7% fewer collisions vs. nominal controller</strong></p>
-      <a href="/research/#safe-mppi">Project details →</a>
+    <div class="alfolio-profile-main">
+      <h1>Guolin Yang</h1>
+      <p class="alfolio-subtitle">Robotics & Autonomous Systems</p>
+      <div class="alfolio-social" aria-label="Contact and profile links">
+        <a href="mailto:guolin.yang@manchester.ac.uk" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/GuolinYang" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/guolin-yang-hnu" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.researchgate.net/profile/Guolin-Yang-2" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+        <a href="/files/Guolin_Yang_CV_2026.pdf" title="CV"><i class="fas fa-file-alt"></i></a>
+      </div>
     </div>
-  </article>
+  </header>
 
-  <article class="project-card">
-    <img src="/images/project-cbf-filter.svg" alt="Real-time multi-obstacle CBF safety filter">
-    <div class="project-card__body">
-      <p class="project-card__eyebrow">Real-Time Control · CBF · QP</p>
-      <h3>Multi-Obstacle Safety Filtering</h3>
-      <p>A compact discrete-time CBF correction layer designed to keep online computation small as nearby obstacle count grows.</p>
-      <p><strong>7.8% → 3.8% collision rate · 9.30 ms runtime</strong></p>
-      <a href="/research/#cbf-filter">Project details →</a>
-    </div>
-  </article>
+  <div class="alfolio-intro">
+    <p>Hi there! I’m a PhD Researcher in Robotics and AI / Control Systems and Robotics at the <a href="https://www.manchester.ac.uk/">University of Manchester</a>, advised by Prof. Guido Herrmann and Prof. Alessandra Parisio. I expect to complete my PhD in <strong>December 2026</strong>. Before my PhD, I worked on ADAS software at <strong>Lotus Technology</strong> and battery-management-system software and validation at <strong>NIO</strong>.</p>
+
+    <p>My research interests include <strong>World Models, Model-Based Reinforcement Learning, Motion Planning, Model Predictive Control, and Safe Control</strong>. I build predictive autonomous systems that reason about action-dependent future interactions and make real-time decisions in dynamic multi-agent environments.</p>
+
+    <p>My recent work includes interaction-aware latent world models for crowd navigation, uncertainty-aware MPPI with CBF/CVaR safety mechanisms, and real-time multi-obstacle safety filtering. Across the reported studies, the best evaluated configuration reached <strong>99.9% navigation success</strong>, improved OOD success by <strong>4.8 percentage points</strong>, and reduced collision rate from <strong>7.8% to 3.8%</strong> with a <strong>9.30 ms</strong> safety-filter runtime.</p>
+  </div>
+
+  <hr>
+
+  <h2><a href="/publications/" class="section-heading-link">Recent News</a></h2>
+  <div class="alfolio-news table-responsive">
+    <table>
+      <tbody>
+        <tr><th>Sep 2026</th><td>Presented <em>Risk-Bounded Predictive Control for Automated Vehicles in Shared-Space Areas</em> at AVEC 2026 in Tsukuba, Japan.</td></tr>
+        <tr><th>2026</th><td><em>A Safety Framework for Uncertainty-Aware Model Predictive Path Integral Control in Shared-Space Navigation</em> accepted to IEEE CDC 2026.</td></tr>
+        <tr><th>2026</th><td><em>PIP-CN: Prediction-Integrated Planning for Crowd Navigation</em> accepted to IEEE/RSJ IROS 2026.</td></tr>
+        <tr><th>2025</th><td>Co-authored work on intelligent industrial PV-panel cleaning recommendation published in <em>Applied Energy</em>.</td></tr>
+        <tr><th>2024</th><td><em>A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicle</em> published in <em>IEEE Access</em>.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2><a href="/research/" class="section-heading-link">Selected Projects</a></h2>
+  <div class="alfolio-publications">
+
+    <article class="alfolio-pub-row" id="safe-mppi">
+      <div class="alfolio-pub-side">
+        <span class="venue-badge">CDC 2026</span>
+      </div>
+      <div class="alfolio-pub-main">
+        <div class="pub-title">A Safety Framework for Uncertainty-Aware Model Predictive Path Integral Control in Shared-Space Navigation</div>
+        <div class="pub-authors"><span class="self-author">Guolin Yang</span>, A. S. Chen, A. Parisio, and G. Herrmann</div>
+        <div class="pub-venue"><em>IEEE Conference on Decision and Control (CDC)</em>, 2026</div>
+        <div class="pub-links"><a href="https://nottingham-repository.worktribe.com/output/70308951">Paper</a><a href="/research/#safe-mppi">Project</a></div>
+      </div>
+    </article>
+
+    <article class="alfolio-pub-row" id="pip-cn">
+      <div class="alfolio-pub-side">
+        <span class="venue-badge">IROS 2026</span>
+      </div>
+      <div class="alfolio-pub-main">
+        <div class="pub-title">PIP-CN: Prediction-Integrated Planning for Crowd Navigation</div>
+        <div class="pub-authors"><span class="self-author">Guolin Yang</span>, A. S. Chen, A. Parisio, and G. Herrmann</div>
+        <div class="pub-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026</div>
+        <div class="pub-links"><a href="https://nottingham-repository.worktribe.com/output/66916793">Paper</a><a href="/research/#pip-cn">Project</a></div>
+      </div>
+    </article>
+
+    <article class="alfolio-pub-row">
+      <div class="alfolio-pub-side">
+        <span class="venue-badge">AVEC 2026</span>
+      </div>
+      <div class="alfolio-pub-main">
+        <div class="pub-title">Risk-Bounded Predictive Control for Automated Vehicles in Shared-Space Areas</div>
+        <div class="pub-authors"><span class="self-author">Guolin Yang</span>, A. S. Chen, A. Parisio, and G. Herrmann</div>
+        <div class="pub-venue"><em>International Symposium on Advanced Vehicle Control (AVEC)</em>, 2026</div>
+        <div class="pub-links"><a href="/research/#risk-bounded">Project</a></div>
+      </div>
+    </article>
+
+    <article class="alfolio-pub-row">
+      <div class="alfolio-pub-side">
+        <span class="venue-badge">IEEE Access</span>
+      </div>
+      <div class="alfolio-pub-main">
+        <div class="pub-title">A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicle</div>
+        <div class="pub-authors"><span class="self-author">Guolin Yang</span>, E. J. Lopez Pulgarin, and G. Herrmann</div>
+        <div class="pub-venue"><em>IEEE Access</em>, vol. 12, pp. 9025–9037, 2024</div>
+        <div class="pub-links"><a href="https://doi.org/10.1109/ACCESS.2024.3352499">PDF / DOI</a><a href="/research/#hfpm">Project</a></div>
+      </div>
+    </article>
+
+    <article class="alfolio-pub-row">
+      <div class="alfolio-pub-side">
+        <span class="venue-badge">SAE China</span>
+        <div class="pub-teaser"><img src="/images/LapTimeSim.png" alt="Autonomous race car lap-time simulation"></div>
+      </div>
+      <div class="alfolio-pub-main">
+        <div class="pub-title">Time-Optimal Trajectory Planning for Autonomous Race Car</div>
+        <div class="pub-authors"><span class="self-author">Guolin Yang</span> and T. Chai</div>
+        <div class="pub-venue"><em>China Society of Automotive Engineering Annual Conference</em>, 2020</div>
+        <div class="pub-links"><a href="/research/#vehicle-dynamics">Project</a></div>
+      </div>
+    </article>
+  </div>
+
+  <hr>
+  <p class="alfolio-footnote">Research: world models · model-based RL · MPPI/MPC · motion planning · CBF · CVaR · autonomous systems.</p>
 </div>
-
-## Research focus
-
-<div class="research-grid">
-  <div class="research-card">
-    <h3>World Models & Model-Based RL</h3>
-    <p>Learning compact latent representations and action-conditioned dynamics for multi-step prediction in interactive environments.</p>
-  </div>
-  <div class="research-card">
-    <h3>Predictive Planning</h3>
-    <p>Using MPC / MPPI and sampling-based optimisation to evaluate candidate actions through predicted future system evolution.</p>
-  </div>
-  <div class="research-card">
-    <h3>Safe & Risk-Aware Control</h3>
-    <p>Combining Control Barrier Functions, CVaR and robust constraints with sampling-based control under prediction uncertainty.</p>
-  </div>
-  <div class="research-card">
-    <h3>Autonomous Systems</h3>
-    <p>Closed-loop evaluation in custom simulators, CARLA and vehicle-oriented environments, with emphasis on dynamic multi-agent interaction.</p>
-  </div>
-</div>
-
-## Experience at a glance
-
-| Period | Role | Focus |
-|---|---|---|
-| 2023–Present | PhD Researcher, University of Manchester | World models, MBRL, MPPI/MPC, safe control, autonomous navigation |
-| 2023–Present | Graduate Teaching Assistant | Robotics, applied mechanics, industrial robotics, digital control, MPC |
-| 2022 | ADAS Engineer, Lotus Technology | C++, camera + HD-map feature logic, CANoe, diagnostics, DFMEA |
-| 2021 | BMS Software Intern, NIO | Simulink, CAN/DBC, insulation detection, chamber/bench/vehicle validation |
-| 2017–2019 | High-Voltage Lead, Formula Student EV | EV HV architecture, modelling, safety and lightweight battery design |
-
-<p class="status-note"><strong>PhD status:</strong> PhD Researcher / Candidate, 2023–Present. Expected completion: <strong>December 2026</strong>.</p>
-
-## Technical stack
-
-<div class="tech-groups">
-  <div class="tech-group">
-    <h3>AI & Learning</h3>
-    <div class="skill-tags"><span>PyTorch</span><span>Model-Based RL</span><span>World Models</span><span>Learned Dynamics</span><span>Representation Learning</span></div>
-  </div>
-  <div class="tech-group">
-    <h3>Planning & Control</h3>
-    <div class="skill-tags"><span>MPPI</span><span>MPC</span><span>Motion Planning</span><span>CBF</span><span>CVaR</span><span>Risk-Aware Control</span></div>
-  </div>
-  <div class="tech-group">
-    <h3>Programming</h3>
-    <div class="skill-tags"><span>Python</span><span>C++</span><span>MATLAB / Simulink</span><span>SciPy</span><span>Git</span><span>Docker</span></div>
-  </div>
-  <div class="tech-group">
-    <h3>Simulation & Automotive</h3>
-    <div class="skill-tags"><span>CARLA</span><span>IPG CarMaker</span><span>Vector CANoe</span><span>CAN / DBC</span><span>DFMEA</span></div>
-  </div>
-</div>
-
-## Selected publications & highlights
-
-- **2026:** *A Safety Framework for Uncertainty-Aware Model Predictive Path Integral Control in Shared-Space Navigation* — IEEE CDC 2026, accepted.
-- **2026:** *PIP-CN: Prediction-Integrated Planning for Crowd Navigation* — IEEE/RSJ IROS 2026, accepted.
-- **2026:** *Risk-Bounded Predictive Control for Automated Vehicles in Shared-Space Areas* — presented at AVEC 2026.
-- **2025:** Co-authored work published in *Applied Energy* on intelligent PV-panel cleaning recommendation.
-- **2024:** *A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicle* — *IEEE Access*.
-
-<p class="page-cta">
-  <a class="btn btn--primary" href="/research/">Explore research</a>
-  <a class="btn" href="/publications/">Publications</a>
-  <a class="btn" href="/cv/">CV</a>
-</p>
