@@ -12,7 +12,10 @@ author_profile: false
 <h2 class="bibliography">2026</h2>
 
 <article class="alfolio-pub-row">
-  <div class="alfolio-pub-side"><span class="venue-badge">CDC 2026</span></div>
+  <div class="alfolio-pub-side">
+    <span class="venue-badge">CDC 2026</span>
+    <div class="pub-teaser paper-cover paper-cover--portrait"><img src="/images/safe-mppi-cover.jpg" alt="Safe MPPI trajectory result from the CDC 2026 paper"></div>
+  </div>
   <div class="alfolio-pub-main">
     <div class="pub-title">A Safety Framework for Uncertainty-Aware Model Predictive Path Integral Control in Shared-Space Navigation</div>
     <div class="pub-authors"><span class="self-author">Guolin Yang</span>, A. S. Chen, A. Parisio, and G. Herrmann</div>
@@ -22,7 +25,10 @@ author_profile: false
 </article>
 
 <article class="alfolio-pub-row">
-  <div class="alfolio-pub-side"><span class="venue-badge">IROS 2026</span></div>
+  <div class="alfolio-pub-side">
+    <span class="venue-badge">IROS 2026</span>
+    <div class="pub-teaser paper-cover"><img src="/images/pip-cn-cover.jpg" alt="PIP-CN paper figure comparing prediction-only and planning-informed prediction"></div>
+  </div>
   <div class="alfolio-pub-main">
     <div class="pub-title">PIP-CN: Prediction-Integrated Planning for Crowd Navigation</div>
     <div class="pub-authors"><span class="self-author">Guolin Yang</span>, A. S. Chen, A. Parisio, and G. Herrmann</div>
@@ -56,7 +62,10 @@ author_profile: false
 <h2 class="bibliography">2024</h2>
 
 <article class="alfolio-pub-row">
-  <div class="alfolio-pub-side"><span class="venue-badge">IEEE Access</span></div>
+  <div class="alfolio-pub-side">
+    <span class="venue-badge">IEEE Access</span>
+    <div class="pub-teaser paper-cover"><img src="/images/hfpm-cover.jpg" alt="Hierarchical Forecasting Model figure from the IEEE Access paper"></div>
+  </div>
   <div class="alfolio-pub-main">
     <div class="pub-title">A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicle</div>
     <div class="pub-authors"><span class="self-author">Guolin Yang</span>, E. J. Lopez Pulgarin, and G. Herrmann</div>

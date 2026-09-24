@@ -12,6 +12,8 @@ My research focuses on predictive autonomy for robots and autonomous vehicles op
 ## Interaction-Aware World Models for Predictive Planning — PIP-CN
 <a id="pip-cn"></a>
 
+<div class="research-cover"><img src="/images/pip-cn-cover.jpg" alt="PIP-CN paper figure comparing prediction-only and planning-informed prediction"></div>
+
 **Problem.** In crowd navigation, prediction and planning are coupled: a vehicle slowing, turning, or continuing forward can change nearby pedestrian behaviour. Predicting other agents independently from the ego action can therefore lead to poor planning decisions.
 
 **Contribution.** I developed a recurrent latent world-model architecture that combines action-conditioned dynamics, pedestrian-interaction modelling, collision-risk prediction, reward/value estimation, and sampling-based predictive planning. Candidate action sequences are rolled forward in latent space and evaluated through MPPI-style control.
@@ -26,6 +28,8 @@ My research focuses on predictive autonomy for robots and autonomous vehicles op
 
 ## Safety-Aware MPPI under Prediction Uncertainty
 <a id="safe-mppi"></a>
+
+<div class="research-cover research-cover--portrait"><img src="/images/safe-mppi-cover.jpg" alt="Safe MPPI trajectory result from the CDC 2026 paper"></div>
 
 **Problem.** Standard MPPI can penalise risky trajectories, but the command finally applied to the system is an importance-weighted combination of sampled controls. Soft trajectory penalties alone do not directly guarantee that the executed first-step action satisfies a safety condition, especially with uncertain pedestrian forecasts.
 
@@ -64,6 +68,8 @@ This work studies uncertain pedestrian forecasts using a local, sample-based CVa
 ## Hierarchical Pedestrian Forecasting for Autonomous-Vehicle Simulation
 <a id="hfpm"></a>
 
+<div class="research-cover"><img src="/images/hfpm-cover.jpg" alt="Hierarchical Forecasting Model figure from the IEEE Access paper"></div>
+
 Before the world-model work, I developed a hierarchical pedestrian model for shared-space simulation. The model combines pedestrian dynamics, path planning, and decision layers so simulated pedestrians can respond to vehicle behaviour rather than following fixed trajectories.
 
 **Publication:** G. Yang, E. J. Lopez Pulgarin, and G. Herrmann, “A Hierarchical Forecasting Model of Pedestrian Crossing Behaviour for Autonomous Vehicle,” *IEEE Access*, vol. 12, pp. 9025–9037, 2024. [DOI](https://doi.org/10.1109/ACCESS.2024.3352499)
@@ -72,6 +78,8 @@ Before the world-model work, I developed a hierarchical pedestrian model for sha
 
 ## Vehicle Dynamics, MPC and Autonomous Racing
 <a id="vehicle-dynamics"></a>
+
+<div class="research-cover"><img src="/images/LapTimeSim.png" alt="Autonomous race car lap-time simulation"></div>
 
 My vehicle-engineering foundation includes four-wheel vehicle dynamics, Pacejka tyre-force modelling, MPC-based trajectory planning and tracking, and IPG CarMaker closed-loop simulation. This physical modelling and control background later connected naturally to learned predictive models and sampling-based planning.
 
