@@ -24,6 +24,8 @@ My research focuses on predictive autonomy for robots and autonomous vehicles op
 
 **Publication:** G. Yang, A. S. Chen, A. Parisio, and G. Herrmann, “PIP-CN: Prediction-Integrated Planning for Crowd Navigation,” IEEE/RSJ IROS 2026. [Repository record](https://nottingham-repository.worktribe.com/output/66916793)
 
+<div class="pub-links"><a href="https://www.youtube.com/watch?v=fJWtc2lpDoc">Video</a><a href="/files/PIP_CN_IROS_2026.pdf">Poster</a></div>
+
 ---
 
 ## Safety-Aware MPPI under Prediction Uncertainty
