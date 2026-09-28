@@ -27,7 +27,7 @@ redirect_from:
   </header>
 
   <div class="alfolio-intro">
-    <p>Hi there! I’m a PhD Researcher in Robotics and AI / Control Systems and Robotics at the <a href="https://www.manchester.ac.uk/">University of Manchester</a>, advised by Prof. Guido Herrmann and Prof. Alessandra Parisio. I expect to complete my PhD in <strong>December 2026</strong>. Before my PhD, I worked on ADAS software at <strong>Lotus Technology</strong> and battery-management-system software and validation at <strong>NIO</strong>.</p>
+    <p>Hi there! I’m a PhD Researcher in <a href="https://www.robotics.manchester.ac.uk/">Robotics and AI</a> / <a href="https://www.se.manchester.ac.uk/research/control-systems-and-robotics/">Control Systems and Robotics</a> at the <a href="https://www.manchester.ac.uk/">University of Manchester</a>, advised by <a href="https://research.manchester.ac.uk/en/persons/guido.herrmann/">Prof. Guido Herrmann</a> and <a href="https://research.manchester.ac.uk/en/persons/alessandra.parisio/">Prof. Alessandra Parisio</a>. I am also mentored by <a href="https://anthony-s-chen.github.io/">Dr. Anthony Siming Chen</a>. I expect to complete my PhD in <strong>December 2026</strong>. Before my PhD, I worked on ADAS software at <strong>Lotus Technology</strong> and battery-management-system software and validation at <strong>NIO</strong>.</p>
 
     <p>My research interests include <strong>World Models, Model-Based Reinforcement Learning, Motion Planning, Model Predictive Control, and Safe Control</strong>. I build predictive autonomous systems that reason about action-dependent future interactions and make real-time decisions in dynamic multi-agent environments.</p>
 
