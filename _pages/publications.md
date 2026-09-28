@@ -33,7 +33,7 @@ author_profile: false
     <div class="pub-title">PIP-CN: Prediction-Integrated Planning for Crowd Navigation</div>
     <div class="pub-authors"><span class="self-author">Guolin Yang</span>, A. S. Chen, A. Parisio, and G. Herrmann</div>
     <div class="pub-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2026</div>
-    <div class="pub-links"><a href="https://nottingham-repository.worktribe.com/output/66916793">Paper</a><a href="/research/#pip-cn">Project</a></div>
+    <div class="pub-links"><a href="https://nottingham-repository.worktribe.com/output/66916793">Paper</a><a href="/research/#pip-cn">Project</a><a href="https://www.youtube.com/watch?v=fJWtc2lpDoc">Video</a><a href="/files/PIP_CN_IROS_2026.pdf">Poster</a></div>
   </div>
 </article>
 
