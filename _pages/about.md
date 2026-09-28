@@ -81,6 +81,7 @@ redirect_from:
     <article class="alfolio-pub-row">
       <div class="alfolio-pub-side">
         <span class="venue-badge">AVEC 2026</span>
+        <div class="pub-teaser paper-cover"><img src="/images/AVEC-cover.png" alt="AVEC paper figure"></div>
       </div>
       <div class="alfolio-pub-main">
         <div class="pub-title">Risk-Bounded Predictive Control for Automated Vehicles in Shared-Space Areas</div>
